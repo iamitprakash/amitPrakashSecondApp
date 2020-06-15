@@ -1,12 +1,18 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace amitPrakashSecondApp
+namespace DailyStockReportAutomation
 {
-    class MainClass
+    class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DailyStockdetails _dailyStockCalculation = new DailyStockdetails();
+            _dailyStockCalculation.dailyStockCalculation();
+            Console.ReadKey();
         }
     }
 }

@@ -13,4 +13,9 @@
     <PackageReference Include="coverlet.collector" Version="1.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="amitPrakashSecondApp">
+      <HintPath>..\amitPrakashSecondApp\bin\Debug\amitPrakashSecondApp.exe</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>
